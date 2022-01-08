@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proiect", "Proiect\Proiect.csproj", "{C971BA19-7FF0-4BCA-844E-F98B538BCBFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalaFitnessModel", "SalaFitnessModel\SalaFitnessModel.csproj", "{328E7B1B-0E30-4F44-8498-18BE8178CDCF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C971BA19-7FF0-4BCA-844E-F98B538BCBFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C971BA19-7FF0-4BCA-844E-F98B538BCBFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C971BA19-7FF0-4BCA-844E-F98B538BCBFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C971BA19-7FF0-4BCA-844E-F98B538BCBFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{328E7B1B-0E30-4F44-8498-18BE8178CDCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{328E7B1B-0E30-4F44-8498-18BE8178CDCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{328E7B1B-0E30-4F44-8498-18BE8178CDCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{328E7B1B-0E30-4F44-8498-18BE8178CDCF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1DE04DD8-2EF4-4F57-BA3E-4722890B150F}
+	EndGlobalSection
+EndGlobal

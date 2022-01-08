@@ -151,7 +151,7 @@
                         </Style>
                     </Button.Style>
                 </Button>
-                <Button x:Name="btnCancel" Content="Cancel"/>
+                <Button x:Name="btnCancel" Content="Cancel" Click="btnCancel_Click"   />
             </StackPanel>
         </GroupBox>
 

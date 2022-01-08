@@ -54,7 +54,7 @@ namespace Proiect
 
             clientAchizitiesVSource = ((System.Windows.Data.CollectionViewSource)(this.FindResource("clientAchizitiesViewSource")));
 
-            clientAchizitiesVSource.Source = ctx.Achizitie.Local;
+            //clientAchizitiesVSource.Source = ctx.Achizitie.Local;
             ctx.Achizitie.Load();
             ctx.Abonament.Load();
             cmbClient.ItemsSource = ctx.Client.Local;
@@ -75,6 +75,7 @@ namespace Proiect
             action = ActionState.New;
             BindingOperations.ClearBinding(numeTextBox, TextBox.TextProperty);
             BindingOperations.ClearBinding(prenumeTextBox, TextBox.TextProperty);
+           
         }
         private void btnEdit_Click(object sender, RoutedEventArgs e)
         {
@@ -259,6 +260,7 @@ namespace Proiect
                     SaveAbonament();
                     break;
                 case "Achizitie":
+                    SaveAchizitie();
                     break;
             }
             ReInitialize();
